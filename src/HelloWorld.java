@@ -5,16 +5,12 @@ public class HelloWorld
         counter++;
         method(counter);
     }
-
-
-
     public static void method(int counter) {
         System.out.println("Hello World");
         counter++;
         System.out.println("Counter Value in method 1:: "+ counter);
         method2(counter);
     }
-
 
     public static void method2(int counter) {
         System.out.println("Method 2");
