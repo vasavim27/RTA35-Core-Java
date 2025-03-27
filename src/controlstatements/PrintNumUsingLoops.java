@@ -9,8 +9,6 @@ pn.dwLoop();
 
     }
 
-
-
     public void forLoop() {
         System.out.println("Executing for loop");
         for (int i = 1; i <= 10; i++) {

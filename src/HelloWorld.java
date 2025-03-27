@@ -14,6 +14,7 @@ public class HelloWorld
 
     public static void method2(int counter) {
         System.out.println("Method 2");
+
         counter++;
         System.out.println("Counter Value in method 2:: "+ counter);
     }
